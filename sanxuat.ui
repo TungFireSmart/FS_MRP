@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sanxuat</class>
+ <widget class="QMainWindow" name="sanxuat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kế hoạch sản xuất - FireSmart</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="but_kehoach2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kế hoạch</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_lenhsanxuat2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lệnh sản xuất</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_update">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cập nhật</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_home2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable_date">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sản xuất trong ngày</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>10</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>User ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>50</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="table_sx">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>251</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Model</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>kế hoạch</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>hoàn thành</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="table_test">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>110</y>
+      <width>251</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Model</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>kế hoạch</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>hoàn thành</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="table_nhapkho">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>110</y>
+      <width>241</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Model</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>nhập kho</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tồn kho</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="lable_date_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>70</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TEST trong ngày</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable_date_3">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>70</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nhập kho</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuS_n_xu_t">
+    <property name="title">
+     <string>Sản xuất</string>
+    </property>
+    <addaction name="action_khsx"/>
+    <addaction name="action_lsx"/>
+    <addaction name="separator"/>
+    <addaction name="action_test"/>
+   </widget>
+   <addaction name="menuS_n_xu_t"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_sanphammoi">
+   <property name="text">
+    <string>Sản phẩm mới</string>
+   </property>
+  </action>
+  <action name="action_sanpham">
+   <property name="text">
+    <string>Danh sách sản phẩm</string>
+   </property>
+  </action>
+  <action name="actionLinh_ki_n">
+   <property name="text">
+    <string>Linh kiện</string>
+   </property>
+  </action>
+  <action name="action_khsx">
+   <property name="text">
+    <string>Kế hoạch SX</string>
+   </property>
+  </action>
+  <action name="action_lsx">
+   <property name="text">
+    <string>Lệnh sản xuất</string>
+   </property>
+  </action>
+  <action name="action_test">
+   <property name="text">
+    <string>Test QC</string>
+   </property>
+  </action>
+  <action name="action_nhapkho">
+   <property name="text">
+    <string>Nhập kho</string>
+   </property>
+  </action>
+  <action name="action_xuatkho">
+   <property name="text">
+    <string>Xuất kho</string>
+   </property>
+  </action>
+  <action name="action_dathang">
+   <property name="text">
+    <string>Đặt hàng linh kiện</string>
+   </property>
+  </action>
+  <action name="action_lktk">
+   <property name="text">
+    <string>Linh kiện tồn kho</string>
+   </property>
+  </action>
+  <action name="action_bg">
+   <property name="text">
+    <string>Báo giá</string>
+   </property>
+  </action>
+  <action name="action_ddh">
+   <property name="text">
+    <string>Đơn đặt hàng</string>
+   </property>
+  </action>
+  <action name="action_bh">
+   <property name="text">
+    <string>Sản phẩm bảo hành</string>
+   </property>
+  </action>
+  <action name="action_dskh">
+   <property name="text">
+    <string>Danh sách khách hàng</string>
+   </property>
+  </action>
+  <action name="action_hdcd">
+   <property name="text">
+    <string>Hướng dẫn cài đặt</string>
+   </property>
+  </action>
+  <action name="action_hdsd">
+   <property name="text">
+    <string>Hướng dẫn sử dụng</string>
+   </property>
+  </action>
+  <action name="actionUpdate">
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </action>
+  <action name="actionK_t_th_c">
+   <property name="text">
+    <string>Kết thúc</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

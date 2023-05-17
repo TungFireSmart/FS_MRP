@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FSMRP - phần mềm quản lý sản xuất FireSmart</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="but_sanpham">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sản phẩm</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_sanxuat">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sản xuất</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_kho">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quản lý kho</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_banhang">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bán hàng</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_login">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>20</y>
+      <width>150</width>
+      <height>35</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_login">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>20</y>
+      <width>75</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_khsx">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>221</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Kế hoạch sản xuất trong ngày&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>110</y>
+      <width>501</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sản phẩm đang test / đang bảo hành&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_3">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>250</y>
+      <width>501</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Nguyên vật liệu trên đường về kho&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>400</y>
+      <width>501</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Biểu đồ thống kê:&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Mức độ đạt kế hoạch sản xuất&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Mức độ đạt kế hoạch bán hàng&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Báo xanh khi đạt điểm hòa vốn&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- Báo đỏ khi chậm kế hoạch hoặc doanh thu bán hàng dưới điểm hòa vốn&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable_date">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ngày / tháng / năm</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuS_n_ph_m">
+    <property name="title">
+     <string>Sản phẩm</string>
+    </property>
+    <addaction name="action_sanphammoi"/>
+    <addaction name="action_sanpham"/>
+    <addaction name="separator"/>
+    <addaction name="action_linhkien"/>
+    <addaction name="separator"/>
+    <addaction name="actionK_t_th_c"/>
+   </widget>
+   <widget class="QMenu" name="menuS_n_xu_t">
+    <property name="title">
+     <string>Sản xuất</string>
+    </property>
+    <addaction name="action_khsx"/>
+    <addaction name="action_lsx"/>
+    <addaction name="separator"/>
+    <addaction name="action_test"/>
+   </widget>
+   <widget class="QMenu" name="menuQu_n_l_kho">
+    <property name="title">
+     <string>Quản lý kho</string>
+    </property>
+    <addaction name="action_nhapkho"/>
+    <addaction name="action_xuatkho"/>
+    <addaction name="separator"/>
+    <addaction name="action_dathang"/>
+    <addaction name="action_lktk"/>
+    <addaction name="separator"/>
+    <addaction name="actionNh_cung_c_p"/>
+   </widget>
+   <widget class="QMenu" name="menuB_n_h_ng">
+    <property name="title">
+     <string>Bán hàng</string>
+    </property>
+    <addaction name="action_bg"/>
+    <addaction name="action_ddh"/>
+    <addaction name="separator"/>
+    <addaction name="action_bh"/>
+    <addaction name="separator"/>
+    <addaction name="action_dskh"/>
+   </widget>
+   <widget class="QMenu" name="menuTr_gi_p">
+    <property name="title">
+     <string>Trợ giúp</string>
+    </property>
+    <addaction name="action_hdcd"/>
+    <addaction name="action_hdsd"/>
+    <addaction name="separator"/>
+    <addaction name="actionUpdate"/>
+   </widget>
+   <addaction name="menuS_n_ph_m"/>
+   <addaction name="menuS_n_xu_t"/>
+   <addaction name="menuQu_n_l_kho"/>
+   <addaction name="menuB_n_h_ng"/>
+   <addaction name="menuTr_gi_p"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_sanphammoi">
+   <property name="text">
+    <string>Sản phẩm mới</string>
+   </property>
+  </action>
+  <action name="action_sanpham">
+   <property name="text">
+    <string>Danh sách sản phẩm</string>
+   </property>
+  </action>
+  <action name="action_linhkien">
+   <property name="text">
+    <string>Linh kiện</string>
+   </property>
+  </action>
+  <action name="action_khsx">
+   <property name="text">
+    <string>Kế hoạch SX</string>
+   </property>
+  </action>
+  <action name="action_lsx">
+   <property name="text">
+    <string>Lệnh sản xuất</string>
+   </property>
+  </action>
+  <action name="action_test">
+   <property name="text">
+    <string>Test QC</string>
+   </property>
+  </action>
+  <action name="action_nhapkho">
+   <property name="text">
+    <string>Nhập kho</string>
+   </property>
+  </action>
+  <action name="action_xuatkho">
+   <property name="text">
+    <string>Xuất kho</string>
+   </property>
+  </action>
+  <action name="action_dathang">
+   <property name="text">
+    <string>Đặt hàng linh kiện</string>
+   </property>
+  </action>
+  <action name="action_lktk">
+   <property name="text">
+    <string>Linh kiện tồn kho</string>
+   </property>
+  </action>
+  <action name="action_bg">
+   <property name="text">
+    <string>Báo giá</string>
+   </property>
+  </action>
+  <action name="action_ddh">
+   <property name="text">
+    <string>Đơn đặt hàng</string>
+   </property>
+  </action>
+  <action name="action_bh">
+   <property name="text">
+    <string>Sản phẩm bảo hành</string>
+   </property>
+  </action>
+  <action name="action_dskh">
+   <property name="text">
+    <string>Danh sách khách hàng</string>
+   </property>
+  </action>
+  <action name="action_hdcd">
+   <property name="text">
+    <string>Hướng dẫn cài đặt</string>
+   </property>
+  </action>
+  <action name="action_hdsd">
+   <property name="text">
+    <string>Hướng dẫn sử dụng</string>
+   </property>
+  </action>
+  <action name="actionUpdate">
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </action>
+  <action name="actionK_t_th_c">
+   <property name="text">
+    <string>Kết thúc</string>
+   </property>
+  </action>
+  <action name="actionNh_cung_c_p">
+   <property name="text">
+    <string>Nhà cung cấp</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tao_bom</class>
+ <widget class="QMainWindow" name="tao_bom">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tạo bom list</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="but_save">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_linhkienmoi">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Thêm linh kiện mới</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_bom">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_back">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>10</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>34</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="search_linhkien">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>401</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tìm kiếm&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="table_dslinhkien">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>781</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Tên linh kiện</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SKU</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Part number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Thông số chính</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Action</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="table_bom_temp">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>781</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Tên linh kiện</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>SKU</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Part number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Số lượng</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Action</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="but_timkiem">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>100</y>
+      <width>71</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>330</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>BOM list dự kiến</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_ketqua">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>80</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuS_n_ph_m">
+    <property name="title">
+     <string>Sản phẩm</string>
+    </property>
+    <addaction name="action_sanphammoi"/>
+    <addaction name="action_sanpham"/>
+    <addaction name="separator"/>
+    <addaction name="action_linhkien1"/>
+    <addaction name="separator"/>
+    <addaction name="actionK_t_th_c"/>
+   </widget>
+   <addaction name="menuS_n_ph_m"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_sanphammoi">
+   <property name="text">
+    <string>Sản phẩm mới</string>
+   </property>
+  </action>
+  <action name="action_sanpham">
+   <property name="text">
+    <string>Danh sách sản phẩm</string>
+   </property>
+  </action>
+  <action name="action_linhkien1">
+   <property name="text">
+    <string>Linh kiện</string>
+   </property>
+  </action>
+  <action name="actionK_ho_ch_SX">
+   <property name="text">
+    <string>Kế hoạch SX</string>
+   </property>
+  </action>
+  <action name="actionL_nh_s_n_xu_t">
+   <property name="text">
+    <string>Lệnh sản xuất</string>
+   </property>
+  </action>
+  <action name="actionTest_QC">
+   <property name="text">
+    <string>Test QC</string>
+   </property>
+  </action>
+  <action name="actionNh_p_kho">
+   <property name="text">
+    <string>Nhập kho</string>
+   </property>
+  </action>
+  <action name="actionXu_t_kho">
+   <property name="text">
+    <string>Xuất kho</string>
+   </property>
+  </action>
+  <action name="action_t_h_ng_linh_ki_n">
+   <property name="text">
+    <string>Đặt hàng linh kiện</string>
+   </property>
+  </action>
+  <action name="actionLinh_ki_n_t_n_kho">
+   <property name="text">
+    <string>Linh kiện tồn kho</string>
+   </property>
+  </action>
+  <action name="actionB_o_gi">
+   <property name="text">
+    <string>Báo giá</string>
+   </property>
+  </action>
+  <action name="action_n_t_h_ng">
+   <property name="text">
+    <string>Đơn đặt hàng</string>
+   </property>
+  </action>
+  <action name="actionS_n_ph_m_b_o_h_nh">
+   <property name="text">
+    <string>Sản phẩm bảo hành</string>
+   </property>
+  </action>
+  <action name="actionDanh_s_ch_kh_ch_h_ng">
+   <property name="text">
+    <string>Danh sách khách hàng</string>
+   </property>
+  </action>
+  <action name="actionH_ng_d_n_c_i_t">
+   <property name="text">
+    <string>Hướng dẫn cài đặt</string>
+   </property>
+  </action>
+  <action name="actionH_ng_d_n_s_d_ng">
+   <property name="text">
+    <string>Hướng dẫn sử dụng</string>
+   </property>
+  </action>
+  <action name="actionUpdate">
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </action>
+  <action name="actionK_t_th_c">
+   <property name="text">
+    <string>Kết thúc</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
